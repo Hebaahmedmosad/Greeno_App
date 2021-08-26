@@ -17,8 +17,8 @@ class RecomendsPlants extends StatelessWidget {
           RecomendPlantCard(
             image: "assets/images/image_1.png",
             title: "Samantha",
-            country: "Russia",
-            price: 440,
+            country: "Egypt",
+            price: 290,
             press: () {
               Navigator.push(
                 context,
@@ -31,8 +31,8 @@ class RecomendsPlants extends StatelessWidget {
           RecomendPlantCard(
             image: "assets/images/image_2.png",
             title: "Angelica",
-            country: "Russia",
-            price: 440,
+            country: "Egypt",
+            price: 320,
             press: () {
               Navigator.push(
                 context,
@@ -45,8 +45,8 @@ class RecomendsPlants extends StatelessWidget {
           RecomendPlantCard(
             image: "assets/images/image_3.png",
             title: "Samantha",
-            country: "Russia",
-            price: 440,
+            country: "Egypt",
+            price: 300,
             press: () {},
           ),
         ],
@@ -85,7 +85,7 @@ class RecomendPlantCard extends StatelessWidget {
           GestureDetector(
             onTap: press,
             child: Container(
-              padding: EdgeInsets.all(kDefaultPadding / 2),
+              padding: EdgeInsets.all(kDefaultPadding /9.5),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
@@ -119,7 +119,7 @@ class RecomendPlantCard extends StatelessWidget {
                   ),
                   Spacer(),
                   Text(
-                    '\$$price',
+                    '$price EGP',
                     style: Theme.of(context)
                         .textTheme
                         .button

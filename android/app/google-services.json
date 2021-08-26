@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590510313915",
+    "project_id": "greeno-app",
+    "storage_bucket": "greeno-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590510313915:android:642c7e0c99dee65b68f49e",
+        "android_client_info": {
+          "package_name": "com.example.plant_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590510313915-5uiurcegc36nvvft70rdidlr8mkj6eln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCspF5FRXRmhG5vEw0_X8LVeBHANm8bw1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590510313915-5uiurcegc36nvvft70rdidlr8mkj6eln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
