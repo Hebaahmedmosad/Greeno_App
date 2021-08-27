@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "590510313915",
-    "project_id": "greeno-app",
-    "storage_bucket": "greeno-app.appspot.com"
+    "project_number": "676883615424",
+    "project_id": "greeno-e9ce8",
+    "storage_bucket": "greeno-e9ce8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:590510313915:android:642c7e0c99dee65b68f49e",
+        "mobilesdk_app_id": "1:676883615424:android:a574e707a9cc450902e725",
         "android_client_info": {
           "package_name": "com.example.plant_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "590510313915-5uiurcegc36nvvft70rdidlr8mkj6eln.apps.googleusercontent.com",
+          "client_id": "676883615424-e9v8nto12elr6lll9nd19ifautct7h71.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCspF5FRXRmhG5vEw0_X8LVeBHANm8bw1Q"
+          "current_key": "AIzaSyB835fbU_HCM85LRbFFTE3PfBbX0O2fwT8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "590510313915-5uiurcegc36nvvft70rdidlr8mkj6eln.apps.googleusercontent.com",
+              "client_id": "676883615424-e9v8nto12elr6lll9nd19ifautct7h71.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
