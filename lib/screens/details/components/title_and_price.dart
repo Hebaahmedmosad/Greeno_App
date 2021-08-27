@@ -6,11 +6,11 @@ class TitleAndPrice extends StatelessWidget {
   const TitleAndPrice({
     Key key,
     this.title,
-    this.country,
+    this.familyName,
     this.price,
   }) : super(key: key);
 
-  final String title, country;
+  final String title, familyName;
   final int price;
 
   @override
@@ -30,7 +30,7 @@ class TitleAndPrice extends StatelessWidget {
                       .copyWith(color: kTextColor, fontWeight: FontWeight.bold),
                 ),
                 TextSpan(
-                  text: country,
+                  text: familyName,
                   style: TextStyle(
                     fontSize: 20,
                     color: kPrimaryColor,

@@ -1,6 +1,6 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:plant_app/constants.dart';
-
+import 'package:greeno/constants.dart';
 import 'featurred_plants.dart';
 import 'header_with_seachbox.dart';
 import 'recomend_plants.dart';
@@ -17,9 +17,12 @@ class Body extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           HeaderWithSearchBox(size: size),
-          TitleWithMoreBtn(title: "Recomended", press: () {}),
+          TitleWithMoreBtn(title: "Recomended", press: () {
+          }),
           RecomendsPlants(),
-          TitleWithMoreBtn(title: "Featured Plants", press: () {}),
+          TitleWithMoreBtn(title: "Featured Plants", press: () {
+           // FeaturedPlants(moreBtnStatus: true,);
+          }),
           FeaturedPlants(),
           SizedBox(height: kDefaultPadding),
         ],
