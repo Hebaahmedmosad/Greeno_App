@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+=======
+
+
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+
+>>>>>>> efac7f71bdfa8893166769e83cc89b98703407cb
 import 'package:firebase_core/firebase_core.dart';
 import 'package:plant_app/screens/home/home_screen.dart';
 import 'package:plant_app/screens/homepage.dart';
