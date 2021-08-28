@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:greeno/constants.dart';
-import 'package:greeno/screens/details/components/buy.dart';
+import 'package:greeno/screens/details/components/card.dart';
 import 'icon_card.dart';
 import 'image_and_icons.dart';
 import 'title_and_price.dart'; 
