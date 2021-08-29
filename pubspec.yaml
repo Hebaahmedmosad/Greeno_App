@@ -30,6 +30,7 @@ dependencies:
   flutter_svg: ^0.19.1
   firebase_analytics: ^8.3.0
   cloud_firestore: ^2.5.0 #it helps us to use SVG
+  flutter_credit_card: ^2.0.0
 
 dev_dependencies:
   flutter_test:
