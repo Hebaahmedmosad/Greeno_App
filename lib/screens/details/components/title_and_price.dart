@@ -42,7 +42,7 @@ class TitleAndPrice extends StatelessWidget {
           ),
           Spacer(),
           Text(
-            "$price EGP",
+            "\$$price",
             style: Theme.of(context)
                 .textTheme
                 .headline5
