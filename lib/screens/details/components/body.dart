@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:greeno/constants.dart';
-//import 'package:greeno/screens/details/components/card.dart';
-//import 'icon_card.dart';
+import 'package:greeno/screens/details/components/buy.dart';
+import 'icon_card.dart';
 import 'image_and_icons.dart';
 import 'title_and_price.dart'; 
-import 'package:greeno/screens/details/components/credit_card.dart';
 
 class Body extends StatelessWidget {
  final String title , familyName,image;
@@ -30,12 +29,12 @@ class Body extends StatelessWidget {
             children: <Widget>[
               Spacer(),
               SizedBox(
-                width: size.width *(2/4),
-                height: 64,
+                width: size.width *(3/4),
+                height: 84,
                 child: FlatButton(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20),
                     ),
                   ),
                   color: kPrimaryColor,

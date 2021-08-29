@@ -35,15 +35,18 @@ class HeaderWithSearchBox extends StatelessWidget {
             ),
             child: Row(
               children: <Widget>[
-                Image.asset("assets/images/logo.png",color: Colors.white,),
+                Image.asset(
+                  "assets/images/logo.png",
+                  color: Colors.white,
+                ),
                 Text(
                   '  GREENO',
                   style: Theme.of(context).textTheme.headline5.copyWith(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Spacer(),
-                Icon(Icons.shopping_cart,size: 30.0,color: Colors.white),
-               // Image.asset("assets/images/logo.png",color: Colors.white,)
+                Icon(Icons.shopping_cart, size: 30.0, color: Colors.white),
+                // Image.asset("assets/images/logo.png",color: Colors.white,)
               ],
             ),
           ),
